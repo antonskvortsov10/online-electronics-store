@@ -21,8 +21,8 @@ const CreateType = ({show, onHide}) => {
                 </Form>
             </Modal.Body>
             <Modal.Footer>
-                <Button variant={'outline-danger'} onClick={onHide}>Закрыть</Button>
                 <Button variant={'outline-success'} onClick={onHide}>Добавить</Button>
+                <Button variant={'outline-danger'} onClick={onHide}>Закрыть</Button>
             </Modal.Footer>
         </Modal>
     )
