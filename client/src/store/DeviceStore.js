@@ -31,8 +31,8 @@ export default class DeviceStore {
             {id: 6, name: 'Iphone 12 pro', price: 25000, rating: 5, img: 'https://www.purposechurch.com/wp-content/uploads/2017/10/fpo400x300.png'}
         ]
         */
-        this._selectedType = {}
-        this._selectedBrand = {}
+        //this._selectedType = {}
+        //this._selectedBrand = {}
         makeAutoObservable(this)
     }
 
